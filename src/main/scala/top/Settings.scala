@@ -26,6 +26,7 @@ object DefaultSettings {
     "NrExtIntr" -> 1,
 
     "HasL2cache" -> true,
+    "L2cacheSize" -> 128,
     "HasPrefetch" -> true,
     "EnableMultiIssue" -> false,
     "EnableOutOfOrderExec" -> false,
@@ -75,6 +76,7 @@ object ServeSettings {
   def apply() = Map(
     "FPGAPlatform" -> true,
     "NrExtIntr" -> 1,
+    "L2cacheSize" -> 64,
     "DcacheSize" -> 16,
     "IcacheSize" -> 16
   )
