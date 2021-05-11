@@ -71,6 +71,15 @@ object PXIeSettings {
   )
 }
 
+object ServeSettings {
+  def apply() = Map(
+    "FPGAPlatform" -> true,
+    "NrExtIntr" -> 1,
+    "DcacheSize" -> 16,
+    "IcacheSize" -> 16
+  )
+}
+
 object OOOSettings {
   def apply() = Map(
     "EnableMultiIssue" -> true,

@@ -49,6 +49,7 @@ object TopMain extends App {
     case "pynq"   => PynqSettings()
     case "axu3cg" => Axu3cgSettings()
     case "PXIe"   => PXIeSettings()
+    case "serve"  => ServeSettings()
   } ) ++ ( core match {
     case "inorder"  => InOrderSettings()
     case "ooo"  => OOOSettings()
