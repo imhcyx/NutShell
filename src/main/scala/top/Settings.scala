@@ -33,6 +33,8 @@ object DefaultSettings {
     "HasITLB" -> true,
     "HasDcache" -> true,
     "HasIcache" -> true,
+    "DcacheSize" -> 32,
+    "IcacheSize" -> 32,
     "MmodeOnly" -> false,
     "IsRV32" -> false,
 
