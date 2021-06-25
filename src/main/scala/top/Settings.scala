@@ -75,10 +75,7 @@ object PXIeSettings {
 object ServeSettings {
   def apply() = Map(
     "FPGAPlatform" -> true,
-    "NrExtIntr" -> 1,
-    "L2cacheSize" -> 64,
-    "DcacheSize" -> 16,
-    "IcacheSize" -> 16
+    "NrExtIntr" -> 1
   )
 }
 
