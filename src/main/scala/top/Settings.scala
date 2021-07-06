@@ -75,7 +75,8 @@ object PXIeSettings {
 object ServeSettings {
   def apply() = Map(
     "FPGAPlatform" -> true,
-    "NrExtIntr" -> 1
+    "NrExtIntr" -> 1,
+    "ResetVector" -> 0x00000000L
   )
 }
 
